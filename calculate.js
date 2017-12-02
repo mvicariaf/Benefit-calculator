@@ -1,11 +1,12 @@
 const validateArguments = require('./validate-arguments');
 
-var run = function() {
-    const args = process.argv.slice(2);
-    const validationResult = validateArguments(args);
+const calculate = function() {
+    const files = process.argv.slice(2);
+    const validationResult = validateArguments(files);
     if(!validationResult.isValid){
         console.log(validationResult.message);
     }
-    console.log(args);
+    console.log(files);
 };
-run();
+
+calculate();
