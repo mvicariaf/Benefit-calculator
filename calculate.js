@@ -1,5 +1,11 @@
+const validateArguments = require('./validate-arguments');
+
 var run = function() {
-    var args = process.argv.slice(2);
+    const args = process.argv.slice(2);
+    const validationResult = validateArguments(args);
+    if(!validationResult.isValid){
+        console.log(validationResult.message);
+    }
     console.log(args);
 };
 run();
