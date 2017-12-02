@@ -1,0 +1,19 @@
+{
+  "name": "benefit-calculator",
+  "version": "1.0.0",
+  "description": "Calculadora de beneficios",
+ "main": "calculate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavicariaf/benefit-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mavicariaf/benefit-calculator/issues"
+  },
+ "homepage": "https://github.com/mavicariaf/benefit-calculator#readme"
+}
