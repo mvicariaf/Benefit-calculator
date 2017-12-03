@@ -3,11 +3,11 @@ const csvReader = require('./file-readers/csv-reader');
 
 const readFiles = ([salesFile, pricesFile]) => {
     const sales = csvReader(salesFile);
-    const pricesPerCategory = jsonReader(pricesFile);
+    const incomeDefinition = jsonReader(pricesFile);
 
     return {
         sales,
-        prices: pricesPerCategory
+        incomeDefinition
     }
 };
 
