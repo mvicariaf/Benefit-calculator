@@ -9,8 +9,8 @@ const calculate = function() {
         console.log(validationResult.message);
     }
     const {sales, prices} = readFiles(files);
-    const incomePerCategory = calculateCostsPerCategory(sales);
-    console.log(files);
+    const costsPerCategory = calculateCostsPerCategory(sales);
+    console.log(costsPerCategory);
 };
 
 calculate();
