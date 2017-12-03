@@ -22,3 +22,5 @@ node calculate.js sales_january.csv january_prices.json
 ## Discusion
 
 ### Eleccion de tecnologias
+
+Para leer el fichero csv a JSON he decidido implementar mi propio Reader ya que la logica no era complicada y asi me ahorra añadir dependencias externas que no controlo.
