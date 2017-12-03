@@ -1,6 +1,8 @@
 const validateArguments = require('./validate-arguments');
 const readFiles = require('./read-files');
-const {calculateCostsPerCategory, calculateIncomePerCategory} = require('./cost-analysis');
+const calculateCostsPerCategory = require('./cost-analysis');
+const calculateIncomePerCategory = require('./income-calculator');
+
 
 
 const calculate = function() {
