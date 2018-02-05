@@ -1,4 +1,4 @@
-# Calculadora de beneficios para Miguel Angel
+# Calculadora de beneficios
 
 ## La aplicacion
 
